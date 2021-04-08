@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- style -->
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+	<title>Freecodecamp challenge - Product landing page</title>
+</head>
+<body>
+
+	<!-- header -->
+	<header id="header">
+		<!-- navbar -->
+		<nav id="nav-bar">
+			<!-- log -->
+			<div class="logo">Thor</div>
+			<!-- navlink -->
+			<div class="nav-link">
+				<a href="#header" class="active">Home</a>
+				<a href="#review">Review</a>
+				<a href="#email">Email</a>
+			</div>
+		</nav>
+		<main class="header-container">
+			<!-- title -->
+			<div class="title-header">
+				<strong>#mjolnir</strong>
+				<h1>Dapatkan palu thor sekarang juga</h1>
+				<p>caranya cukup mudah dengan harga yang bersahabat.</p>
+				<button>Beli sekarang</button>
+			</div>
+			<!-- image -->
+			<img src="./assets/mjolnir-1.png" class="mjolnir-img" alt="mjolnir image">
+		</main>
+	</header>
+	<!-- end header -->
+
+	<!-- review -->
+	<section class="review" id="review">
+		<main class="review-video">
+			<div class="title-video">
+				<h2>Video reviews</h2>
+			</div>
+			<iframe id="video"
+				src="https://www.youtube.com/embed/gOEDk7vdO0k">
+			</iframe>
+		</main>
+	</section>
+	<!-- end review -->
+
+	<!-- subscribe -->
+	<section class="email" id="email">
+		<main class="email-container">
+			<div class="title-email">
+				<h2>Subscribe now</h2>
+			</div>
+			<form action=" https://www.freecodecamp.com/email-submit" class="form-email">
+				<div class="email-input">
+					<input type="email" required placeholder="Input your email to subscribe">
+				</div>
+				<button id="submit">Submit</button>
+			</form>
+		</main>
+	</section>
+	<!-- end subscribe -->
+
+	
+</body>
+</html>
